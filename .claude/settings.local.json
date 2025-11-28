@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir node_modules.bin)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial Kalaka fertilizer website mockup (React + Vite + Tailwind)\n\nComplete single-page website implementation for Kalaka South Mining SA - Fertilizers Division:\n- Navbar with responsive mobile menu\n- Hero section with positioning statement and CTAs\n- About section with content checklist\n- Fertilizer Portfolio with product cards (Urea, Ammonium Sulphate, CAN, NPK, Phosphates, Potash)\n- Supply Chain & Footprint overview\n- Value Proposition highlighting partner benefits\n- Leadership team placeholders\n- Contact section with Media & Asset Checklist for client\n- Footer with draft disclaimer\n\nTech stack:\n- React 19.0\n- Vite 7.2.4\n- Tailwind CSS with @tailwindcss/postcss\n- Configured for GitHub Pages deployment at /Kalaka-Website/\n- GitHub Actions workflow for automated deployment\n\nReady for client content and assets to finalize.\n\n🤖 Generated with Claude Code\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(gh auth:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
